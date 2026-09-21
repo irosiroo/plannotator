@@ -1,6 +1,6 @@
 {
   "installCommand": "bun install --frozen-lockfile",
-  "buildCommand": "bun run build",
-  "outputDirectory": "dist",
+  "buildCommand": "bun run --cwd apps/review build",
+  "outputDirectory": "apps/review/dist",
   "framework": "vite"
 }
